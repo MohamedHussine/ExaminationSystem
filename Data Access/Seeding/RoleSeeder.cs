@@ -1,0 +1,26 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using Microsoft.AspNetCore.Identity;
+
+namespace Data_Access.Seeding
+{
+    public static class RoleSeeder
+    {
+        //Extension methods
+        public static async Task SeedRoles(RoleManager<IdentityRole> roleManager)
+        {
+            string[] roles = { "Instructor", "Student" };
+
+            foreach (var role in roles)
+            {
+                if (!await roleManager.RoleExistsAsync(role))
+                {
+                    await roleManager.CreateAsync(new IdentityRole(role));
+                }
+            }
+        }
+    }
+}
