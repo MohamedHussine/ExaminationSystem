@@ -18,7 +18,7 @@ This project follows modern software engineering practices to ensure scalability
 
 * **N-Tier Architecture:** Clear separation of concerns between Data Access, Business Logic, and Presentation layers.
 * **SOLID Principles:** Strictly followed to create decoupled and testable code.
-* **Design Patterns:** Implementation of common patterns (Repository, Unit of Work, etc.) to handle data and logic efficiently.
+* **Design Patterns:** Implementation of common patterns (Repository, Services,Interface) to handle data and logic efficiently.
 * **Clean Code:** Focused on readability and long-term maintenance.
 
 ---
