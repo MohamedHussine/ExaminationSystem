@@ -1,7 +1,6 @@
-﻿using DataAccess.Models;
-
-
-namespace BuisnessModel.Interfaces
+﻿
+using Entities.Models;
+namespace DataAccess.Interfaces
 {
     public interface IChoiceRepository : IGeneralRepository<Choice>
     {

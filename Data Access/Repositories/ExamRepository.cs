@@ -1,16 +1,12 @@
-﻿using ExaminationSystem.Repositories;
-using DataAccess.Context;
-using System;
-using System.Collections.Generic;
-using System.Text;
-using ExaminationSystem.Models;
-using BuisnessModel.Interfaces;
+﻿using Entities.Models;
+using DataAccess.Interfaces;
+using DataAccess.Data;
 
-namespace BuisnessModel.Repositories
+namespace DataAccess.Repositories
 {
     public class ExamRepository : GeneralRepository<Exam>, IExamRepository
     {
-        public ExamRepository(QuizSystemContext context) : base(context)
+        public ExamRepository(Context context) : base(context)
         {
         }
     }

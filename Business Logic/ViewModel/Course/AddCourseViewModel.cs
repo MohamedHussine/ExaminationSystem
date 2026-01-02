@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace BuisnessModel.VeiwModels.Course
+namespace BusinessLogic.VeiwModels.Course
 {
     public class AddCourseViewModel
     {

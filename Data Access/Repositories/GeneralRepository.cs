@@ -1,18 +1,19 @@
-﻿using BuisnessModel.Interfaces;
-using DataAccess.Context;
-using ExaminationSystem.Models;
+﻿
+using DataAccess.Data;
+using DataAccess.Interfaces;
+using Entities.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.ChangeTracking;
 
 
-namespace ExaminationSystem.Repositories
+namespace DataAccess.Repositories
 {
     public class GeneralRepository<T> : IGeneralRepository<T> where T : BaseModel
 
     {
-        QuizSystemContext _context;
+        Context _context;
         DbSet<T> _dbSet; 
-        public GeneralRepository(QuizSystemContext context)
+        public GeneralRepository(Context context)
         {
             _context = context;
             _dbSet = _context.Set<T>();

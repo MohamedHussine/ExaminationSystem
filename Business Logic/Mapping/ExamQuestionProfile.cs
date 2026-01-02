@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using AutoMapper;
 
-namespace BuisnessModel.Mapping
+namespace BusinessLogic.Mapping
 {
     public class ExamQuestionProfile : Profile
     {

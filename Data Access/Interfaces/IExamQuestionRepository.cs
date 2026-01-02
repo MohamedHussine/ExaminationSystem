@@ -1,9 +1,8 @@
-﻿using DataAccess.Models;
-
-
-namespace BuisnessModel.Interfaces
+﻿
+using Entities.Models;
+namespace DataAccess.Interfaces
 {
-    internal interface IExamQuestionRepository : IGeneralRepository<ExamQuestion>
+    public interface IExamQuestionRepository : IGeneralRepository<ExamQuestion>
     {
     }
 }

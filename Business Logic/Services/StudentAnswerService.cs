@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace BuisnessModel.Services
+namespace BusinessLogic.Services
 {
     internal class StudentAnswerService
     {

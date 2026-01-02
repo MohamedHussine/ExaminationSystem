@@ -1,9 +1,9 @@
-﻿using BuisnessModel.DTOs.User;
-using BuisnessModel.VeiwModels.User;
+﻿using BusinessLogic.DTOs.User;
+using BusinessLogic.VeiwModels.User;
 using DataAccess.Identity;
 
 
-namespace BuisnessModel.Mapping
+namespace BusinessLogic.Mapping
 {
     public class UserProfile : AutoMapper.Profile
     {

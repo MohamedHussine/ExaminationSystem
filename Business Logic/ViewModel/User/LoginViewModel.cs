@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace BuisnessModel.VeiwModels.User
+namespace BusinessLogic.VeiwModels.User
 {
     public class LoginViewModel
     {

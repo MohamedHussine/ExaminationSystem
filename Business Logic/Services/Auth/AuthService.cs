@@ -1,11 +1,11 @@
 ﻿using AutoMapper;
-using BuisnessModel.DTOs.User;
-using BuisnessModel.Repositories;
+using BusinessLogic.DTOs.User;
 using DataAccess.Identity;
+using DataAccess.Repositories;
 using Microsoft.AspNetCore.Identity;
 
 
-namespace BuisnessModel.Services.Auth
+namespace BusinessLogic.Services.Auth
 {
     public class AuthService
     {

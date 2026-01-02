@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace BuisnessModel.Interfaces
+namespace DataAccess.Interfaces
 {
     public interface IGeneralRepository<T>
     {

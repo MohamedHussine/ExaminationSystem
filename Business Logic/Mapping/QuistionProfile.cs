@@ -1,13 +1,12 @@
 ﻿using AutoMapper;
-using BuisnessModel.DTOs.Question;
-using BuisnessModel.VeiwModels.Choice;
-using BuisnessModel.VeiwModels.Question;
-using DataAccess.Models;
+using BusinessLogic.DTOs.Question;
+using BusinessLogic.VeiwModels.Question;
+using Entities.Models;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace BuisnessModel.Mapping
+namespace BusinessLogic.Mapping
 {
     public class QuistionProfile : Profile
     {

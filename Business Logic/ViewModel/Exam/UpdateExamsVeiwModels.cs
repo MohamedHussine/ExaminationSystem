@@ -1,9 +1,9 @@
-﻿using DataAccess.Models.Enums;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using Entities.Enum;
 
-namespace BuisnessModel.VeiwModels.Exam
+namespace BusinessLogic.VeiwModels.Exam
 {
     public class UpdateExamsVeiwModels
     {

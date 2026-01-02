@@ -1,6 +1,7 @@
-﻿using DataAccess.Models.Enums;
+﻿
+using Entities.Enum;
 
-namespace ExaminationSystem.ViewModels
+namespace BusinessLogic.ViewModels.Response
 {
     public class ResponseViewModel<T>
     {

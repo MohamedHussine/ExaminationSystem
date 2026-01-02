@@ -1,9 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using ExaminationSystem.Models;
+using Entities.Models;
 
-namespace BuisnessModel.Interfaces
+
+namespace DataAccess.Interfaces
 {
     public interface IExamRepository : IGeneralRepository<Exam>
     {

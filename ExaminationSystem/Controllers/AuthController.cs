@@ -1,11 +1,10 @@
 ﻿using AutoMapper;
-using BuisnessModel.DTOs.User;
-using BuisnessModel.Services.Auth;
-using BuisnessModel.VeiwModels.User;
-using DataAccess.Models.Enums;
-using ExaminationSystem.Attributes;
-using ExaminationSystem.Models;
-using ExaminationSystem.ViewModels;
+using BenchmarkDotNet.Attributes;
+using BusinessLogic.DTOs.User;
+using BusinessLogic.Services.Auth;
+using BusinessLogic.VeiwModels.User;
+using BusinessLogic.ViewModels.Response;
+using Entities.Enum;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Caching.Distributed;
 using Microsoft.Extensions.Caching.Memory;

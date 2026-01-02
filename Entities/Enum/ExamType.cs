@@ -8,7 +8,7 @@ namespace Entities.Enum
 {
     public enum ExamType
     {
-        Quiz,
+        Quiz ,
         Final
 
     }

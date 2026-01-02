@@ -1,9 +1,9 @@
-﻿using DataAccess.Models.Enums;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using Entities.Enum;
 
-namespace BuisnessModel.VeiwModels.Question
+namespace BusinessLogic.VeiwModels.Question
 {
     public class UpdateQuestionViewModel
     {

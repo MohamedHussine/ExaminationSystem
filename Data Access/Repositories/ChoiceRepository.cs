@@ -1,16 +1,16 @@
-﻿using BuisnessModel.Interfaces;
-using DataAccess.Context;
-using DataAccess.Models;
-using ExaminationSystem.Repositories;
+﻿
+using DataAccess.Data;
+using DataAccess.Interfaces;
+using Entities.Models;
 using Microsoft.EntityFrameworkCore;
 
 
-namespace BuisnessModel.Repositories
+namespace DataAccess.Repositories
 {
     public class ChoiceRepository : GeneralRepository<Choice> , IChoiceRepository
     {
-        QuizSystemContext _context;
-        public ChoiceRepository(QuizSystemContext context) : base(context)
+        Context _context;
+        public ChoiceRepository(Context context) : base(context)
         {
             _context = context;
         }

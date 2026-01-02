@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace BuisnessModel.DTOs.Course
+namespace BusinessLogic.DTOs.Course
 {
     public class AllCoursesDTO
     {

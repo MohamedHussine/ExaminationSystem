@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Text;
 
 
-namespace BuisnessModel.Mapping
+namespace BusinessLogic.Mapping
 {
     public class CourseAssignmentProfile : Profile
     {

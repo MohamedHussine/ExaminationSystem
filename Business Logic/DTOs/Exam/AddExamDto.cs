@@ -1,10 +1,10 @@
-﻿using DataAccess.Models.Enums;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Text;
+using Entities.Enum;
 
-namespace BuisnessModel.DTOs.Exam
+namespace BusinessLogic.DTOs.Exam
 {
     public class AddExamDto
     {

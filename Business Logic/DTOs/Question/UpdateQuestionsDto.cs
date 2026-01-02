@@ -1,10 +1,10 @@
-﻿using BuisnessModel.DTOs.Choice;
-using DataAccess.Models.Enums;
+﻿
 using System;
 using System.Collections.Generic;
 using System.Text;
+using Entities.Enum;
 
-namespace BuisnessModel.DTOs.Question
+namespace BusinessLogic.DTOs.Question
 {
     public class UpdateQuestionsDto
     {

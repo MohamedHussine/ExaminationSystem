@@ -1,10 +1,8 @@
 ﻿using AutoMapper;
-using BuisnessModel.DTOs.Course;
-using BuisnessModel.VeiwModels.Course;
-using ExaminationSystem.Models;
-
-
-namespace BuisnessModel.Mapping
+using BusinessLogic.DTOs.Course;
+using BusinessLogic.VeiwModels.Course;
+using Entities.Models;
+namespace BusinessLogic.Mapping
 {
     public class CourseProfile : Profile
     {

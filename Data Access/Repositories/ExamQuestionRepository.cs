@@ -1,12 +1,12 @@
-﻿using DataAccess.Context;
-using DataAccess.Models;
-using ExaminationSystem.Repositories;
+﻿
+using DataAccess.Data;
+using Entities.Models;
 
-namespace BuisnessModel.Repositories
+namespace DataAccess.Repositories
 {
     internal class ExamQuestionRepository : GeneralRepository<ExamQuestion>
     {
-        public ExamQuestionRepository(QuizSystemContext context) : base(context)
+        public ExamQuestionRepository(Context context) : base(context)
         {
         }
     }

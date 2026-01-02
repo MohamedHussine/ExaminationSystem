@@ -1,10 +1,10 @@
 ﻿using AutoMapper;
-using BuisnessModel.DTOs.Choice;
-using BuisnessModel.Interfaces;
-using DataAccess.Models;
+using BusinessLogic.DTOs.Choice;
+using DataAccess.Interfaces;
+using Entities.Models;
 using System.Threading.Tasks;
 
-namespace BuisnessModel.Services
+namespace BusinessLogic.Services
 {
     public class ChoiceService
     {

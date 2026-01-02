@@ -1,11 +1,10 @@
-﻿using BuisnessModel.DTOs.Choice;
-using BuisnessModel.VeiwModels.Choice;
-using DataAccess.Models.Enums;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using BusinessLogic.VeiwModels.Choice;
+using Entities.Enum;
 
-namespace BuisnessModel.VeiwModels.Question
+namespace BusinessLogic.VeiwModels.Question
 {
     public class AllQuestionsViewModel
     {

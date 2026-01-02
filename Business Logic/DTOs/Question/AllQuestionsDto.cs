@@ -1,11 +1,12 @@
-﻿using BuisnessModel.DTOs.Choice;
+﻿
+using BusinessLogic.DTOs.Choice;
 using DataAccess.Identity;
-using DataAccess.Models.Enums;
+using Entities.Enum;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace BuisnessModel.DTOs.Question
+namespace BusinessLogic.DTOs.Question
 {
     public class AllQuestionsDto
     {

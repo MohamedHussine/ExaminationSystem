@@ -1,23 +1,22 @@
 ﻿using AutoMapper;
-using BuisnessModel.DTOs.Course;
-using BuisnessModel.Interfaces;
+using BusinessLogic.DTOs.Course;
 using DataAccess.Identity;
-using DataAccess.Models;
-using ExaminationSystem.Models;
+using DataAccess.Interfaces;
+using Entities.Models;
 using Microsoft.AspNetCore.Identity;
 
-namespace BuisnessModel.Services
+namespace BusinessLogic.Services
 {
     public class CourseService
     {
         private readonly IMapper _mapper;
         private readonly ICourseRepository _courseRepo;
-        private readonly UserManager<ApplicationUser> _userManager;
+        private readonly UserManager<DataAccess.Identity.ApplicationUser> _userManager;
 
         public CourseService(
             IMapper mapper,
             ICourseRepository courseRepo,
-            UserManager<ApplicationUser> userManager)
+            UserManager<DataAccess.Identity.ApplicationUser> userManager)
         {
             _mapper = mapper;
             _courseRepo = courseRepo;

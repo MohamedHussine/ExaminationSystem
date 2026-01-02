@@ -1,5 +1,5 @@
-﻿using DataAccess.Models;
-using ExaminationSystem.Models;
+﻿
+using Entities.Models;
 using Microsoft.AspNetCore.Identity;
 namespace DataAccess.Identity
 {

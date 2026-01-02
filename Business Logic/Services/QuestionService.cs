@@ -1,13 +1,12 @@
 ﻿using AutoMapper;
-using BuisnessModel.DTOs.Choice;
-using BuisnessModel.DTOs.Question;
-using BuisnessModel.Interfaces;
-using BuisnessModel.Repositories;
-using DataAccess.Models;
+using BusinessLogic.DTOs.Choice;
+using BusinessLogic.DTOs.Question;
+using DataAccess.Interfaces;
+using Entities.Models;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace BuisnessModel.Services
+namespace BusinessLogic.Services
 {
     public class QuestionService
     {

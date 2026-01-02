@@ -1,10 +1,8 @@
 ﻿using AutoMapper;
-using BuisnessModel.DTOs.Exam;
-using BuisnessModel.VeiwModels.Exam;
-using ExaminationSystem.Models;
-
-
-namespace BuisnessModel.Mapping
+using BusinessLogic.DTOs.Exam;
+using BusinessLogic.VeiwModels.Exam;
+using Entities.Models;
+namespace BusinessLogic.Mapping
 {
     public class ExamProfile : Profile
     {

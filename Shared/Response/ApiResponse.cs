@@ -1,4 +1,4 @@
-﻿namespace API.Response
+﻿namespace Shared.Response
 {
     public class ApiResponse<T>
     {

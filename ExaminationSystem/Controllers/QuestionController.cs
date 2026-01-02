@@ -1,9 +1,9 @@
 ﻿using AutoMapper;
-using BuisnessModel.DTOs.Question;
-using BuisnessModel.Services;
-using BuisnessModel.VeiwModels.Question;
-using DataAccess.Models.Enums;
-using ExaminationSystem.ViewModels;
+using BusinessLogic.DTOs.Question;
+using BusinessLogic.Services;
+using BusinessLogic.VeiwModels.Question;
+using BusinessLogic.ViewModels.Response;
+using Entities.Enum;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Quiz_System.Controllers

@@ -1,8 +1,8 @@
 ﻿using AutoMapper;
-using BuisnessModel.DTOs.Exam;
-using BuisnessModel.VeiwModels.Exam;
-using DataAccess.Models.Enums;
-using ExaminationSystem.ViewModels;
+using BusinessLogic.DTOs.Exam;
+using BusinessLogic.VeiwModels.Exam;
+using BusinessLogic.ViewModels.Response;
+using Entities.Enum;
 using Microsoft.AspNetCore.Mvc;
 
 [Route("[controller]/[action]")]

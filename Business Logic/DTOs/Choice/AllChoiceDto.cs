@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace BuisnessModel.DTOs.Choice
+namespace BusinessLogic.DTOs.Choice
 {
     public class AllChoiceDto
     {

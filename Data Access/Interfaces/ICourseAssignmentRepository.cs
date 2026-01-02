@@ -1,9 +1,9 @@
 ﻿
-using DataAccess.Models;
-
-namespace BuisnessModel.Interfaces
+using Entities.Models;
+namespace DataAccess.Interfaces
 {
-    internal interface ICourseAssignmentRepository : IGeneralRepository<CourseAssignment>
+    public interface ICourseAssignmentRepository : IGeneralRepository<CourseAssignment>
     {
+
     }
 }

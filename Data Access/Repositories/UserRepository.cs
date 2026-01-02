@@ -1,8 +1,9 @@
-﻿using DataAccess.Identity;
+﻿
+using Entities.Models;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
-namespace BuisnessModel.Repositories
+namespace DataAccess.Repositories
 {
     public class UserRepository
     {

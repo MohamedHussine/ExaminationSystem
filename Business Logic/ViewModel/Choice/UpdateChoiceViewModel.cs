@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace BuisnessModel.VeiwModels.Choice
+namespace BusinessLogic.VeiwModels.Choice
 {
     public class UpdateChoiceViewModel
     {

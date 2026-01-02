@@ -1,10 +1,8 @@
 ﻿using AutoMapper;
-using BuisnessModel.DTOs.Choice;
-using BuisnessModel.VeiwModels.Choice;
-using DataAccess.Models;
-
-
-namespace BuisnessModel.Mapping
+using BusinessLogic.DTOs.Choice;
+using BusinessLogic.VeiwModels.Choice;
+using Entities.Models;
+namespace BusinessLogic.Mapping
 {
     public class ChoiceProfile : Profile
     {

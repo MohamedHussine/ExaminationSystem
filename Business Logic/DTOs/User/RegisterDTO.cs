@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace BuisnessModel.DTOs.User
+namespace BusinessLogic.DTOs.User
 {
     public class RegisterDTO
     {

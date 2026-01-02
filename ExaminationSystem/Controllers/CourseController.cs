@@ -1,10 +1,10 @@
 ﻿using AutoMapper;
-using BuisnessModel.DTOs.Course;
-using BuisnessModel.Services;
-using BuisnessModel.VeiwModels.Course;
-using DataAccess.Models.Enums;
-using ExaminationSystem.Attributes;
-using ExaminationSystem.ViewModels;
+using BenchmarkDotNet.Attributes;
+using BusinessLogic.DTOs.Course;
+using BusinessLogic.Services;
+using BusinessLogic.VeiwModels.Course;
+using BusinessLogic.ViewModels.Response;
+using Entities.Enum;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Caching.Distributed;
 using System.Text.Json;

@@ -1,8 +1,7 @@
 ﻿using AutoMapper;
-using BuisnessModel.DTOs.Exam;
-using BuisnessModel.Interfaces;
-using DataAccess.Models.Enums;
-using ExaminationSystem.Models;
+using BusinessLogic.DTOs.Exam;
+using DataAccess.Interfaces;
+using Entities.Models;
 
 public class ExamService
 {

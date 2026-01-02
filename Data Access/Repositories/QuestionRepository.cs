@@ -1,13 +1,13 @@
-﻿using BuisnessModel.Interfaces;
-using DataAccess.Context;
-using DataAccess.Models;
-using ExaminationSystem.Repositories;
-
-namespace BuisnessModel.Repositories
+﻿
+using DataAccess.Data;
+using DataAccess.Interfaces;
+using DataAccess.Repositories;
+using Entities.Models;
+namespace DataAccess.Repositories
 {
     public class QuestionRepository : GeneralRepository<Question>, IQuestionRepository
     {
-        public QuestionRepository(QuizSystemContext context) : base(context)
+        public QuestionRepository(Context context) : base(context)
         {
         }
 

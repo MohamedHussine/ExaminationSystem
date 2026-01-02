@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 using Entities.Models;
 using Microsoft.EntityFrameworkCore;
 
-namespace Data_Access.Seeding
+namespace DataAccess.Seeding
 {
 public static class SeedData
     {

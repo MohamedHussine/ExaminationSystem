@@ -1,8 +1,7 @@
-﻿using DataAccess.Models.Enums;
-using ExaminationSystem.Models;
+﻿
+using Entities.Enum;
 
-
-namespace BuisnessModel.VeiwModels.Exam
+namespace BusinessLogic.VeiwModels.Exam
 {
     public class AllExamsVeiwModels
     {

@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Data_Access.Seeding;
+using DataAccess.Seeding;
 using Entities.Models;
 using Microsoft.EntityFrameworkCore;
 
-namespace Data_Access.Data
+namespace DataAccess.Data
 {
     public class Context : DbContext
     {

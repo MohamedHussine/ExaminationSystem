@@ -1,9 +1,9 @@
 ﻿using AutoMapper;
-using BuisnessModel.DTOs.Choice;
-using BuisnessModel.Services;
-using BuisnessModel.VeiwModels.Choice;
-using DataAccess.Models.Enums;
-using ExaminationSystem.ViewModels;
+using BusinessLogic.DTOs.Choice;
+using BusinessLogic.Services;
+using BusinessLogic.VeiwModels.Choice;
+using BusinessLogic.ViewModels.Response;
+using Entities.Enum;
 using Microsoft.AspNetCore.Mvc;
 
 namespace ExaminationSystem.Controllers
